@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "유클리드 호제법", "유클리드 호제법\유클리드 호제법.vcxproj", "{DEFD00B5-D16E-49B6-BE5B-770A255688CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEFD00B5-D16E-49B6-BE5B-770A255688CE}.Debug|x64.ActiveCfg = Debug|x64
+		{DEFD00B5-D16E-49B6-BE5B-770A255688CE}.Debug|x64.Build.0 = Debug|x64
+		{DEFD00B5-D16E-49B6-BE5B-770A255688CE}.Debug|x86.ActiveCfg = Debug|Win32
+		{DEFD00B5-D16E-49B6-BE5B-770A255688CE}.Debug|x86.Build.0 = Debug|Win32
+		{DEFD00B5-D16E-49B6-BE5B-770A255688CE}.Release|x64.ActiveCfg = Release|x64
+		{DEFD00B5-D16E-49B6-BE5B-770A255688CE}.Release|x64.Build.0 = Release|x64
+		{DEFD00B5-D16E-49B6-BE5B-770A255688CE}.Release|x86.ActiveCfg = Release|Win32
+		{DEFD00B5-D16E-49B6-BE5B-770A255688CE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB3588E4-3CCB-45E3-A45F-137825DB09CF}
+	EndGlobalSection
+EndGlobal
