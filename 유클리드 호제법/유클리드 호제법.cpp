@@ -15,7 +15,7 @@ int Euclidean(int a, int b)
 int main()
 {
 	// 입력값
-	unsigned int a,b;
+	unsigned int a,b,gcd,lcm;
 	cout << "입력값 첫번째:";
 	cin >> a;
 	cout << "입력값 두번째:";
@@ -28,7 +28,14 @@ int main()
 		a = t;
 	}
 
-	cout << "Euclidean:" << Euclidean(a,b) <<endl;	
+	// 최대 공약수
+	gcd = Euclidean(a, b);
+	// 최소 공배수
+	lcm = a*b/gcd;
+
+	cout << "Euclidean." <<endl;
+	cout << "최대 공약수 gcd:" << gcd <<endl;
+	cout << "최소 공배수 lcm:" << lcm <<endl;
 
 	return 0;
 }
